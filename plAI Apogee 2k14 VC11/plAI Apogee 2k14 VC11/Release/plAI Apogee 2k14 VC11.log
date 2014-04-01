@@ -1,0 +1,68 @@
+﻿Build started 4/1/2014 5:00:06 PM.
+     1>Project "C:\Users\Amitayush Thakur\Documents\APOGEE\2k14\plAI\new\plAI Apogee 2k14 VC11\plAI Apogee 2k14 VC11\plAI Apogee 2k14 VC11.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Amitayush Thakur\Documents\APOGEE\2k14\plAI\new\plAI Apogee 2k14 VC11\plAI Apogee 2k14 VC11\SFML-2.1\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D SFML_STATIC /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AnimatedSprite.cpp Game.cpp GameGraphics.cpp GameSounds.cpp HumanPlayerWASD.cpp InformationProvider.cpp Map.cpp CannonBallsManager.cpp param_name.cpp Raft.cpp SampleAIPlayer.cpp Source.cpp VectorOps.cpp
+         AnimatedSprite.cpp
+         Game.cpp
+         GameGraphics.cpp
+         GameSounds.cpp
+         HumanPlayerWASD.cpp
+     1>HumanPlayerWASD.cpp(24): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>HumanPlayerWASD.cpp(25): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         InformationProvider.cpp
+         Map.cpp
+         CannonBallsManager.cpp
+         param_name.cpp
+     1>param_name.cpp(59): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>param_name.cpp(60): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>param_name.cpp(63): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>param_name.cpp(63): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>param_name.cpp(64): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>param_name.cpp(64): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>param_name.cpp(185): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>param_name.cpp(194): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>param_name.cpp(272): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>param_name.cpp(321): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>param_name.cpp(323): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>param_name.cpp(325): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>param_name.cpp(327): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>param_name.cpp(388): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>param_name.cpp(390): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>param_name.cpp(392): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>param_name.cpp(394): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>param_name.cpp(645): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>param_name.cpp(664): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>param_name.cpp(971): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>param_name.cpp(975): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>param_name.cpp(980): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>param_name.cpp(984): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>param_name.cpp(988): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>param_name.cpp(1000): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+         Raft.cpp
+         SampleAIPlayer.cpp
+         Source.cpp
+         VectorOps.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Amitayush Thakur\Documents\APOGEE\2k14\plAI\new\plAI Apogee 2k14 VC11\Release\plAI Apogee 2k14 VC11.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Amitayush Thakur\Documents\APOGEE\2k14\plAI\new\plAI Apogee 2k14 VC11\plAI Apogee 2k14 VC11\SFML-2.1\lib" "sfml-audio-s.lib" "sfml-graphics-s.lib" "sfml-main.lib" "sfml-system-s.lib" "sfml-window-s.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Amitayush Thakur\Documents\APOGEE\2k14\plAI\new\plAI Apogee 2k14 VC11\Release\plAI Apogee 2k14 VC11.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Amitayush Thakur\Documents\APOGEE\2k14\plAI\new\plAI Apogee 2k14 VC11\Release\plAI Apogee 2k14 VC11.lib" /MACHINE:X86 /SAFESEH Release\AnimatedSprite.obj
+         Release\Game.obj
+         Release\GameGraphics.obj
+         Release\GameSounds.obj
+         Release\HumanPlayerWASD.obj
+         Release\InformationProvider.obj
+         Release\Map.obj
+         Release\CannonBallsManager.obj
+         Release\param_name.obj
+         Release\Raft.obj
+         Release\SampleAIPlayer.obj
+         Release\Source.obj
+         Release\VectorOps.obj
+         Generating code
+     1>c:\users\amitayush thakur\documents\apogee\2k14\plai\new\plai apogee 2k14 vc11\plai apogee 2k14 vc11\param_name.cpp(931): warning C4715: 'param_name::decisionMaker' : not all control paths return a value
+     1>c:\users\amitayush thakur\documents\apogee\2k14\plai\new\plai apogee 2k14 vc11\plai apogee 2k14 vc11\param_name.cpp(443): warning C4715: 'param_name_obstacleMan::getObstacleManPosition' : not all control paths return a value
+         Finished generating code
+         plAI Apogee 2k14 VC11.vcxproj -> C:\Users\Amitayush Thakur\Documents\APOGEE\2k14\plAI\new\plAI Apogee 2k14 VC11\Release\plAI Apogee 2k14 VC11.exe
+     1>Done Building Project "C:\Users\Amitayush Thakur\Documents\APOGEE\2k14\plAI\new\plAI Apogee 2k14 VC11\plAI Apogee 2k14 VC11\plAI Apogee 2k14 VC11.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:45.24

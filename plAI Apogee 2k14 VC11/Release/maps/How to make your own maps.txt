@@ -1,0 +1,13 @@
+1. Open MS-Paint. Resize the canvas to size 1366x768. (Although you can give any size because game automatically adjusts to the map size,
+1366x768 will be used in the competition).
+2. Mark water with Blue Color (RGB = 0,0,255)
+3. Mark land with Green Color (RGB = 0,255,0)
+4. To mark fish in a region, just randomly stroke that region with a white (255,255,255) brush.
+   The mean of those connected white points will be treated as a fish location.
+5. To mark player1's spawn area, randomly stroke the desired region with red (255,0,0) brush.
+6. Player2's spawn area can be similarly marked with yellow (255,255,0) brush.
+7. Save the image as a 24 color bitmap (.bmp).
+8. To launch the game with the map, open it with the game executable, by "Right Click on map -> Open With -> Choose default program".
+Notes:
+-> All other colors will be treated as water by the application.
+-> Illogical/Improper/Corrupt markings can/will lead to undefined behaviour.
