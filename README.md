@@ -54,6 +54,7 @@ A raft can fire cannon balls at its enemy. For that purpose, it must set the Can
 Note the following points:
 
 • Cannon balls travels at a finite speed and can get spotted by a raft when they enter its visibility region, giving the raft some time to duck.
+
 • A raft cannot fire cannon balls at infinite rate. There is a minimum time lag between two shots.
 
 Parameters Known to the AI function:
